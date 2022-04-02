@@ -31,7 +31,7 @@ function button(c){
     '});'+
     'headingElement.innerHTML=\'\';headingElement.innerHTML=headingContent;'+
     'search();">'+
-        '<span class="h5 m-0 p-0">&#129194</span> <b>back</b>';
+        '<span class="h5 m-0 p-0">🢪</span> <b>back</b>';
     parentElement.innerHTML = '';
     entriesData.entries.forEach(dt => {
         if(c ==  dt.Category){
