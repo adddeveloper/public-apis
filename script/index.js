@@ -48,7 +48,7 @@ function button(c){
             if(dt.Auth == "apiKey"){
                 auth='<div class="text-danger"><b>Auth: </b>API Key</div>';
             }
-            parentElement.innerHTML += '<div class="bg-white text-black border border-2 border-dark m-2 px-3">'+
+            parentElement.innerHTML += '<div class="overflow-auto bg-white text-black border border-2 border-dark m-2 px-3">'+
             '<b>'+dt.API+'</b>'+
             '<p class="p-0 m-0"><b>Link: </b><a target="_blank" href="'+dt.Link+'">'+dt.Link+'</a></p>'+
             '<p><b>Description: </b>'+dt.Description+'</p>'+
