@@ -1,0 +1,31 @@
+@font-face {
+    font-family: firaMono-Bold;
+    src: url(/style/font/FiraMono-Bold.ttf);
+}
+@font-face {
+    font-family: firaMono-Regular;
+    src: url(/style/font/FiraMono-Regular.ttf);
+}
+@font-face {
+    font-family: firaMono-Medium;
+    src: url(/style/font/FiraMono-Medium.ttf);
+}
+*{
+    font-family: firaMono-Regular;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: firaMono-Bold;
+}
+a,button{
+    font-family: firaMono-Medium;
+}
+.cursor-pointer{
+    cursor: pointer;
+    user-select: none !important;
+}
+.cursor-pointer:hover{
+    transform: translate3d(0,2px,0);
+}
+input{
+    outline: none;
+}
