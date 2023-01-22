@@ -14,4 +14,4 @@ It uses those information to display different types of APIs to the client
 
 ---
 Please contact if you see any problems or have something to say:
-(contact)[https://adnans.website]
+[contact](https://adnans.website)
